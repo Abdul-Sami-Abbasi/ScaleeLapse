@@ -3,24 +3,59 @@ import requests
 from pathlib import Path
 from ddgs import DDGS
 
+# 6 Sectors x 6 Brands (4 SME + 2 Global) = 36 Brands Total (540 Images)
 BRAND_QUERIES = {
-    
+    # --- 1. APPAREL & STREETWEAR (4 SME + 2 Global) ---
     "outfitters": "outfitters pk clothing product official",
     "khaadi": "khaadi store apparel collection photo",
     "cougar": "cougar casual wear clothing product",
     "rastah": "rastah streetwear fashion photo",
+    "nike": "nike official clothing shoes product",
+    "adidas": "adidas apparel sneakers official photo",
+
+    # --- 2. FOOD & DINING (4 SME + 2 Global) ---
     "espresso": "espresso cafe coffee drink photo",
     "savour_foods": "savour foods food dish photo",
-    "tapal": "tapal tea packaging product photo",
-    
-    
-    "nike": "nike shoes official product",
+    "kababjees": "kababjees restaurant food photo",
+    "broadway_pizza": "broadway pizza food item photo",
+    "mcdonalds": "mcdonalds food item photo",
     "starbucks": "starbucks coffee cup photo",
-    "redbull": "red bull energy drink can"
+
+    # --- 3. CPG & PACKAGED GOODS (4 SME + 2 Global) ---
+    "tapal": "tapal tea packaging product photo",
+    "shan_foods": "shan foods recipe mix packaging",
+    "mitchells": "mitchells food product packaging",
+    "gourmet": "gourmet foods bakery product packaging",
+    "redbull": "red bull energy drink can",
+    "pepsi": "pepsi drink can packaging",
+
+    # --- 4. COSMETICS & BEAUTY (4 SME + 2 Global) ---
+    "saeed_ghani": "saeed ghani skincare product packaging",
+    "jenpharm": "jenpharm skincare product photo",
+    "conatural": "conatural organic beauty product packaging",
+    "hemani": "hemani herbal beauty product packaging",
+    "loreal": "loreal cosmetics official product photo",
+    "nivea": "nivea skincare packaging product photo",
+
+    # --- 5. FOOTWEAR & LEATHER (4 SME + 2 Global) ---
+    "servis": "servis shoes footwear collection photo",
+    "ndure": "ndure shoes casual footwear photo",
+    "urban_sole": "urban sole leather shoes photo",
+    "jafferjees": "jafferjees genuine leather product photo",
+    "bata": "bata shoes footwear product photo",
+    "puma": "puma sports footwear official photo",
+
+    # --- 6. TECH & ELECTRONICS (4 SME + 2 Global) ---
+    "audionic": "audionic sound speakers headphones product",
+    "ronin": "ronin mobile accessories product photo",
+    "zero_lifestyle": "zero lifestyle smartwatch product photo",
+    "space_tech": "space tech mobile accessories product photo",
+    "samsung": "samsung galaxy smartphone product photo",
+    "apple": "apple iphone product official photo"
 }
 
-TARGET_PER_BRAND = 50
-FETCH_BUFFER = 65
+TARGET_PER_BRAND = 15
+FETCH_BUFFER = 22
 
 BASE_DIR = Path(__file__).resolve().parents[3]
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "brandimages"
@@ -42,7 +77,7 @@ for brand, query in BRAND_QUERIES.items():
         results = list(ddgs.images(query, max_results=FETCH_BUFFER))
     except Exception as e:
         print(f"Skipping {brand} due to rate limit/error: {e}")
-        time.sleep(5)  
+        time.sleep(5)
         continue
     
     saved_count = 0
@@ -66,11 +101,11 @@ for brand, query in BRAND_QUERIES.items():
                     f.write(response.content)
                 
                 saved_count += 1
-                time.sleep(0.2)  
+                time.sleep(0.2)
         except Exception:
             continue
 
     print(f"Done: Downloaded {saved_count}/{TARGET_PER_BRAND} images for {brand}.")
-    time.sleep(2)  
+    time.sleep(2)
 
-print("\n--- DATASET EXTRACTION COMPLETE (500 IMAGES) ---")
+print("\n--- DATASET EXTRACTION COMPLETE (540 IMAGES) ---")
