@@ -1,0 +1,77 @@
+[
+    {
+        "image": "toyota_001_2026_rav4.png",
+        "distance": 35.19,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_002_2026_corolla_cross_hybrid.png",
+        "distance": 30.07,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_003_2026_bz.png",
+        "distance": 42.34,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_004_2026_bz_woodland.png",
+        "distance": 38.0,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_005_2026_chr.png",
+        "distance": 20.51,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "toyota_006_2026_camry.png",
+        "distance": 46.32,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_007_2026_prius.png",
+        "distance": 67.9,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_008_2026_crown_signia.png",
+        "distance": 48.0,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_009_2026_grand_highlander.png",
+        "distance": 52.58,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_010_2026_4runner.png",
+        "distance": 34.38,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_011_2027_land_cruiser.png",
+        "distance": 34.4,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_012_2026_sienna.png",
+        "distance": 58.48,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_013_2026_tacoma_iforce_max.png",
+        "distance": 45.3,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_014_2026_tundra_iforce_max.png",
+        "distance": 47.12,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "toyota_015_2026_gr_corolla.png",
+        "distance": 21.24,
+        "status": "CONSISTENT"
+    }
+]

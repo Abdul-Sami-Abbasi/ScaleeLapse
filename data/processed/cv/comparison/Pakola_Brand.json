@@ -1,0 +1,77 @@
+[
+    {
+        "image": "pakola_001_icecream_soda_250ml_can.png",
+        "distance": 10.6,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_002_icecream_soda_300ml.png",
+        "distance": 15.7,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_003_icecream_soda_500ml.png",
+        "distance": 33.97,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "pakola_004_icecream_soda_1_5l.png",
+        "distance": 11.88,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_005_lychee_250ml_can.png",
+        "distance": 9.74,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_006_lychee_500ml.png",
+        "distance": 13.13,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_007_lychee_1_5l.png",
+        "distance": 16.15,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_008_raspberry_1_5l.png",
+        "distance": 9.21,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_009_water_500ml.png",
+        "distance": 29.13,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_010_water_1_5l.png",
+        "distance": 29.95,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_011_water_5l.png",
+        "distance": 12.38,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_012_cream_cordial_800ml.png",
+        "distance": 16.96,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_013_badam_zafran_cordial.png",
+        "distance": 10.53,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_014_red_rose_cordial.png",
+        "distance": 6.12,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "pakola_015_pomegranate_cordial.png",
+        "distance": 8.17,
+        "status": "CONSISTENT"
+    }
+]

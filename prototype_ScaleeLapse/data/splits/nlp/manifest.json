@@ -1,0 +1,12 @@
+{
+  "train": {
+    "rows": 3889,
+    "removed_empty_or_duplicate": 115,
+    "sha256": "30d90f65129347551097a360b7a15fa2050a31b1775bf0e945a5d0a5e74b0cb5"
+  },
+  "validation": {
+    "rows": 956,
+    "removed_empty_or_duplicate": 45,
+    "sha256": "665a5bbf110f0ada82f3e2b694672d28550bb12de042ab86491ea3505ce6d86c"
+  }
+}

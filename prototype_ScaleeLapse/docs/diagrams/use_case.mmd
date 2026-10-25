@@ -1,0 +1,13 @@
+flowchart LR
+  Owner[Owner / Admin] --> Brands[Manage Brand Kits]
+  Owner --> Team[Manage team]
+  Owner --> Rules[Manage sourced rules]
+  Creator[Content creator] --> Draft[Create and edit own drafts]
+  Creator --> Analyze[Analyze and export]
+  Creator --> Submit[Submit for review]
+  Creator --> Forecast[Import engagement and forecast]
+  Reviewer[Reviewer / Manager] --> Review[Review another member's post]
+  Review --> Changes[Request changes]
+  Review --> Approve[Approve and mark ready]
+  Owner --> Review
+  All[Authenticated members] --> Read[Read organization-scoped content]

@@ -1,0 +1,10 @@
+{
+  "name": "ScaleeLapse - weekly approved-source review (disabled)",
+  "active": false,
+  "nodes": [
+    {"id":"schedule","name":"Weekly review","type":"n8n-nodes-base.scheduleTrigger","typeVersion":1.2,"position":[240,300],"parameters":{"rule":{"interval":[{"field":"weeks","weeksInterval":1}]}}},
+    {"id":"notice","name":"Source approval required","type":"n8n-nodes-base.set","typeVersion":3.4,"position":[500,300],"parameters":{"assignments":{"assignments":[{"id":"status","name":"status","type":"string","value":"BLOCKED: configure an authorized source and human review before importing rules."}]},"options":{}}}
+  ],
+  "connections":{"Weekly review":{"main":[[{"node":"Source approval required","type":"main","index":0}]]}},
+  "settings":{"executionOrder":"v1"}
+}

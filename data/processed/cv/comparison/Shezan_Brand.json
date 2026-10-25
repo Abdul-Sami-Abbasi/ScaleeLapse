@@ -1,0 +1,77 @@
+[
+    {
+        "image": "shezan_001_mango_juice_pack.png",
+        "distance": 8.27,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_002_apple_juice_pack.png",
+        "distance": 17.2,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_003_fruit_punch_juice_pack.png",
+        "distance": 6.94,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_004_mango_bottle_250ml.png",
+        "distance": 9.25,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_005_pomegranate_bottle_250ml.png",
+        "distance": 9.87,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_006_lemon_barley_bottle.png",
+        "distance": 9.76,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_007_mango_squash_800ml.png",
+        "distance": 11.97,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_008_orange_squash_800ml.png",
+        "distance": 10.99,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_009_samarqand_syrup.png",
+        "distance": 10.27,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_010_sandal_syrup.png",
+        "distance": 11.63,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_011_tomato_ketchup.png",
+        "distance": 11.71,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_012_green_chili_sauce.png",
+        "distance": 10.23,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_013_strawberry_jam.png",
+        "distance": 8.35,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_014_mango_pickle.png",
+        "distance": 7.38,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "shezan_015_sweet_corn_can.png",
+        "distance": 16.16,
+        "status": "CONSISTENT"
+    }
+]

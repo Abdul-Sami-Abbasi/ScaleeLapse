@@ -1,0 +1,13 @@
+Django>=5.2,<6
+djangorestframework>=3.16,<4
+django-cors-headers>=4.7,<5
+psycopg[binary]>=3.2,<4
+Pillow>=11,<13
+opencv-python-headless>=4.11,<5
+numpy>=2.2,<3
+pandas>=2.2,<3
+scikit-learn>=1.6,<2
+statsmodels>=0.14,<0.15
+pytest>=8,<10
+pytest-django>=4.10,<5
+waitress>=3,<4

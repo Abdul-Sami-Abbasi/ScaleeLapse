@@ -1,0 +1,77 @@
+[
+    {
+        "image": "tapal_001_danedar_hard_pack.png",
+        "distance": 19.29,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_002_danedar_pouch.png",
+        "distance": 27.53,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_003_family_mixture.png",
+        "distance": 20.44,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_004_mezban.png",
+        "distance": 27.39,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_005_tezdum.png",
+        "distance": 27.47,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_006_green_tea.png",
+        "distance": 23.78,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_007_chenak.png",
+        "distance": 20.05,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_008_gulbahar.png",
+        "distance": 22.09,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_009_danedar_3in1_elaichi.png",
+        "distance": 24.53,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_010_insta_brew.png",
+        "distance": 20.43,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_011_infusions_apple_cinnamon.png",
+        "distance": 18.51,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_012_infusions_strawberry_vanilla.png",
+        "distance": 36.25,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "tapal_013_karak.png",
+        "distance": 17.01,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_014_special.png",
+        "distance": 25.47,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "tapal_015_peshawari_kahwa.png",
+        "distance": 37.62,
+        "status": "DEVIATION DETECTED"
+    }
+]

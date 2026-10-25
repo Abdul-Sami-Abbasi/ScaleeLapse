@@ -1,0 +1,77 @@
+[
+    {
+        "image": "colgate_001_total_deep_clean_toothpaste.png",
+        "distance": 7.68,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_002_total_gum_protect_whitening.png",
+        "distance": 12.24,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_003_total_sensitivity_mineral_shield.png",
+        "distance": 7.55,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_004_optic_white_charcoal.png",
+        "distance": 11.4,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_005_optic_white_stain_fighter.png",
+        "distance": 8.57,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_006_sensitive_whitening_gel.png",
+        "distance": 7.67,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_007_2in1_whitening.png",
+        "distance": 16.91,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_008_total_gum_health_mouthwash.png",
+        "distance": 18.54,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_009_total_proshield_mouthwash.png",
+        "distance": 20.15,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_010_360_advanced_whitening_toothbrush.png",
+        "distance": 13.46,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_011_360_floss_tip_toothbrush.png",
+        "distance": 16.63,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_012_total_battery_toothbrush.png",
+        "distance": 17.23,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_013_360_optic_white_sonic.png",
+        "distance": 16.56,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_014_total_active_prevention_black.png",
+        "distance": 17.82,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "colgate_015_kids_battery_toothbrush.png",
+        "distance": 7.85,
+        "status": "CONSISTENT"
+    }
+]

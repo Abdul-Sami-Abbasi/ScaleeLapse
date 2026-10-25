@@ -1,0 +1,47 @@
+{
+  "model": "distilbert/distilbert-base-uncased",
+  "formulation": "multilabel classification",
+  "training": {
+    "epochs": 1,
+    "batch_size": 16,
+    "min_frequency": 5,
+    "full_finetune": false,
+    "base_model": "distilbert/distilbert-base-uncased",
+    "threads": 4
+  },
+  "seed": 42,
+  "date": "2026-10-01T04:57:21Z",
+  "dataset": {
+    "train": {
+      "rows": 3889,
+      "removed_empty_or_duplicate": 115,
+      "sha256": "30d90f65129347551097a360b7a15fa2050a31b1775bf0e945a5d0a5e74b0cb5"
+    },
+    "validation": {
+      "rows": 956,
+      "removed_empty_or_duplicate": 45,
+      "sha256": "665a5bbf110f0ada82f3e2b694672d28550bb12de042ab86491ea3505ce6d86c"
+    }
+  },
+  "metrics": {
+    "precision_at_k": 0.011820083484053612,
+    "recall_at_k": 0.08760460257280821,
+    "micro_f1": 0.022474145516753197,
+    "recall_at_10_all_reference_labels": 0.06007795377565251,
+    "validation_label_coverage": 0.265382557517389
+  },
+  "losses": [
+    0.11818322833325928
+  ],
+  "seconds": 37162.753596782684,
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu"
+  },
+  "notes": [
+    "Supplied dataset license UNKNOWN; confirm before redistribution.",
+    "Partial fine-tuning unless full-finetune enabled.",
+    "BLEU not reported for unordered hashtag sets; proposal formulation requires supervisor review.",
+    "No untouched test set or SME-domain generalization claim."
+  ]
+}

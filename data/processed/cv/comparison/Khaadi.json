@@ -1,0 +1,77 @@
+[
+    {
+        "image": "khaadi_001_ivory_terracotta_floral.png",
+        "distance": 32.67,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "khaadi_002_beige_rust_botanical.png",
+        "distance": 31.73,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "khaadi_003_maroon_cream_floral.png",
+        "distance": 21.99,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_004_olive_botanical.png",
+        "distance": 18.3,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_005_dusty_blue_geometric.png",
+        "distance": 19.19,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_006_cream_block_print.png",
+        "distance": 32.2,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "khaadi_007_burnt_orange_paisley.png",
+        "distance": 17.54,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_008_charcoal_floral.png",
+        "distance": 21.3,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_009_sage_floral.png",
+        "distance": 21.16,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_010_rose_botanical.png",
+        "distance": 36.23,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "khaadi_011_navy_geometric.png",
+        "distance": 16.3,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_012_mustard_botanical.png",
+        "distance": 20.31,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_013_brick_red_geofloral.png",
+        "distance": 16.38,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "khaadi_014_stone_minimal_floral.png",
+        "distance": 39.54,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "khaadi_015_forest_green_botanical.png",
+        "distance": 19.0,
+        "status": "CONSISTENT"
+    }
+]

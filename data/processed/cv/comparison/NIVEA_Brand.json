@@ -1,0 +1,77 @@
+[
+    {
+        "image": "nivea_001_creme_blue_tin.png",
+        "distance": 27.93,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_002_soft_cream_jar.png",
+        "distance": 29.93,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_003_essentially_enriched_lotion.png",
+        "distance": 12.12,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_004_original_moisture_lotion.png",
+        "distance": 19.57,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_005_cocoa_butter_lotion.png",
+        "distance": 6.85,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_006_peach_avocado_lotion.png",
+        "distance": 17.86,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_007_cocoa_butter_body_cream.png",
+        "distance": 21.92,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_008_cocoa_in_shower_lotion.png",
+        "distance": 19.26,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_009_coconut_almond_body_wash.png",
+        "distance": 52.28,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "nivea_010_nourishing_care_body_wash.png",
+        "distance": 10.74,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_011_dewy_lip_care.png",
+        "distance": 25.69,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_012_cherry_lip_care.png",
+        "distance": 18.83,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_013_men_maximum_hydration_face_wash.png",
+        "distance": 19.85,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_014_men_age_defense_serum.png",
+        "distance": 20.07,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nivea_015_men_sensitive_post_shave_balm.png",
+        "distance": 31.17,
+        "status": "DEVIATION DETECTED"
+    }
+]

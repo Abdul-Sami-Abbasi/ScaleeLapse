@@ -1,0 +1,77 @@
+[
+    {
+        "image": "bmw_001_2027_ix3_50_xdrive.png",
+        "distance": 41.73,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "bmw_002_2027_x1_xdrive28i.png",
+        "distance": 28.72,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_003_x3_m50_xdrive.png",
+        "distance": 11.39,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_004_2027_x5_40_xdrive.png",
+        "distance": 34.18,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "bmw_005_2027_ix5_60_xdrive.png",
+        "distance": 13.75,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_006_2027_x7_xdrive40i.png",
+        "distance": 56.01,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "bmw_007_2027_740_xdrive.png",
+        "distance": 41.54,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "bmw_008_2027_i7_60_xdrive.png",
+        "distance": 41.34,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "bmw_009_2027_m2_xdrive.png",
+        "distance": 23.2,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_010_m3_competition_xdrive.png",
+        "distance": 17.97,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_011_m4_competition_xdrive.png",
+        "distance": 9.46,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_012_m5_sedan.png",
+        "distance": 17.67,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_013_m5_touring.png",
+        "distance": 51.85,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "bmw_014_xm_label.png",
+        "distance": 25.39,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bmw_015_i5_m60_xdrive.png",
+        "distance": 24.49,
+        "status": "CONSISTENT"
+    }
+]

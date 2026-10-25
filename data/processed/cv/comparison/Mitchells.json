@@ -1,0 +1,77 @@
+[
+    {
+        "image": "mitchells_001_tomato_ketchup.png",
+        "distance": 7.5,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_002_chilli_garlic_sauce.png",
+        "distance": 6.91,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_003_imlee_sauce.png",
+        "distance": 7.56,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_004_mayonnaise.png",
+        "distance": 24.52,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_005_mango_jam.png",
+        "distance": 14.87,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_006_mixed_fruit_jam.png",
+        "distance": 7.84,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_007_golden_mist_marmalade.png",
+        "distance": 12.46,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_008_strawberry_jam.png",
+        "distance": 12.05,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_009_mango_squash.png",
+        "distance": 7.99,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_010_orange_squash.png",
+        "distance": 9.44,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_011_lemon_barley_squash.png",
+        "distance": 10.58,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_012_ginger_garlic_paste.png",
+        "distance": 10.51,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_013_mango_pickle.png",
+        "distance": 19.95,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_014_sarson_ka_saag.png",
+        "distance": 16.81,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "mitchells_015_jubilee.png",
+        "distance": 10.4,
+        "status": "CONSISTENT"
+    }
+]

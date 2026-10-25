@@ -1,0 +1,17 @@
+flowchart LR
+  Image[Validated image] --> HSV[Resize RGB to circular HSV]
+  HSV --> K[K-Means]
+  K --> Palette[Weighted palette]
+  Kit[Owner kit] --> Match[Distance matching]
+  Palette --> Match
+  Match --> Coverage[Color coverage score]
+  Caption[Caption] --> Clean[Remove URLs and hashtags]
+  Clean --> Model{Trained artifact?}
+  Model -- Yes --> Distil[DistilBERT multilabel ranking]
+  Model -- No --> Keywords[Explicit keyword-only assistance]
+  Distil --> Rules[Sourced rule filtering]
+  Keywords --> Rules
+  CSV[Account-specific CSV] --> Sort[Daily means and chronological split]
+  Sort --> Fit[ARIMA / Prophet]
+  Fit --> Evaluate[Held-out MAE and RMSE]
+  Fit --> Future[Refit future forecast with intervals]

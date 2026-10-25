@@ -1,0 +1,77 @@
+[
+    {
+        "image": "Image 1.jpg",
+        "distance": 13.29,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 10.jpg",
+        "distance": 17.38,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 11.jpg",
+        "distance": 19.06,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 12.jpg",
+        "distance": 7.17,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 13.jpg",
+        "distance": 9.89,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 14.jpg",
+        "distance": 19.72,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 15.jpg",
+        "distance": 9.97,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 2.jpg",
+        "distance": 10.06,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 3.jpg",
+        "distance": 19.42,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 4.jpg",
+        "distance": 8.59,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 5.jpg",
+        "distance": 11.89,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 6.jpg",
+        "distance": 15.87,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 7.jpg",
+        "distance": 16.42,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 8.jpg",
+        "distance": 12.26,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image 9.jpg",
+        "distance": 14.69,
+        "status": "CONSISTENT"
+    }
+]

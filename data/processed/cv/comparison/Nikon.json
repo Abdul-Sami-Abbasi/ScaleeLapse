@@ -1,0 +1,77 @@
+[
+    {
+        "image": "nikon_001_z5iic.png",
+        "distance": 17.55,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_002_zr_cinema.png",
+        "distance": 8.04,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_003_z9.png",
+        "distance": 6.94,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_004_z8.png",
+        "distance": 7.48,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_005_z6iii.png",
+        "distance": 9.42,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_006_z5ii.png",
+        "distance": 8.02,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_007_z50ii.png",
+        "distance": 9.01,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_008_zf.png",
+        "distance": 7.81,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_009_70_200_f2_8_sii.png",
+        "distance": 50.27,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "nikon_010_24_105_f4_7_1.png",
+        "distance": 38.17,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "nikon_011_28_135_f4_pz.png",
+        "distance": 27.09,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_012_35mm_f1_2_s.png",
+        "distance": 25.78,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_013_dx_16_50_f2_8.png",
+        "distance": 30.53,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "nikon_014_dx_mc_35_f1_7.png",
+        "distance": 18.92,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "nikon_015_coolshot_proiii.png",
+        "distance": 25.1,
+        "status": "CONSISTENT"
+    }
+]

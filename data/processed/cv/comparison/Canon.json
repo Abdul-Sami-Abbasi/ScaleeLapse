@@ -1,0 +1,67 @@
+[
+    {
+        "image": "Canon EF 50mm L-Series Lens-3.png",
+        "distance": 8.04,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS C70 Studio Camera-1.png",
+        "distance": 5.29,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS R5 Mark II Body Close-Up (1).png",
+        "distance": 6.78,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS R5 Mark II Body Close-Up.png",
+        "distance": 6.78,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS R5 Mark II Studio Camera-2.png",
+        "distance": 9.33,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS R6 Mark III Studio Camera-3.png",
+        "distance": 8.61,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS R6 V Camera Body (1).png",
+        "distance": 3.44,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS R6 V Camera Body.png",
+        "distance": 3.44,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon EOS R7 Studio Product Shot-3.png",
+        "distance": 4.07,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon RF 24-70mm Lens Product Shot-1.png",
+        "distance": 9.47,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon RF 50mm Lens Studio Shot-2.png",
+        "distance": 28.92,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Canon RF 70-200mm Telephoto Lens-2.png",
+        "distance": 32.78,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "Image.png",
+        "distance": 32.14,
+        "status": "DEVIATION DETECTED"
+    }
+]

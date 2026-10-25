@@ -1,0 +1,23 @@
+erDiagram
+  USER ||--|| MEMBERSHIP : has
+  ORGANIZATION ||--o{ MEMBERSHIP : contains
+  ORGANIZATION ||--o{ BRAND : owns
+  BRAND ||--o{ BRAND_COLOR : defines
+  BRAND ||--o{ BRAND_ASSET : contains
+  BRAND ||--o{ POST : identifies
+  ORGANIZATION ||--o{ POST : scopes
+  USER ||--o{ POST : creates
+  POST ||--o| MEDIA : has
+  POST ||--o| VISUAL_ANALYSIS : has
+  POST ||--o| AI_SUGGESTION : has
+  POST ||--o| COMPLIANCE_RESULT : has
+  POST ||--o{ POST_HASHTAG : contains
+  HASHTAG ||--o{ POST_HASHTAG : labels
+  ORGANIZATION ||--o{ COMPLIANCE_RULE : configures
+  BRAND ||--o{ ENGAGEMENT_HISTORY : scopes
+  ORGANIZATION ||--o{ ENGAGEMENT_HISTORY : owns
+  ENGAGEMENT_HISTORY ||--o{ FORECAST : produces
+  POST ||--o{ APPROVAL : records
+  USER ||--o{ APPROVAL : decides
+  ORGANIZATION ||--o{ AUDIT_LOG : owns
+  USER ||--o{ AUDIT_LOG : acts

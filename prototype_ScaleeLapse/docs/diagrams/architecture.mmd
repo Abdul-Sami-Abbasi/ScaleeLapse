@@ -1,0 +1,13 @@
+flowchart LR
+  User[SME team] --> React[React workspace]
+  React --> Proxy[Vite or Nginx same-origin proxy]
+  Proxy --> API[Django REST API]
+  API --> Auth[Session auth and tenant permissions]
+  API --> DB[(PostgreSQL deployment / SQLite fallback)]
+  API --> Media[Private validated media]
+  API --> CV[OpenCV HSV palette audit]
+  API --> NLP[Local model or explicit keyword assistance]
+  API --> Risk[Sourced rules and editorial heuristics]
+  API --> Forecast[ARIMA / optional Prophet]
+  API --> Review[Independent human approval]
+  Review --> Ready[Ready to publish manually]

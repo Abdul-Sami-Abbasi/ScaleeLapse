@@ -1,0 +1,15 @@
+stateDiagram-v2
+  [*] --> DRAFT
+  DRAFT --> ANALYZING: Analyze
+  CHANGES_REQUIRED --> ANALYZING: Re-analyze
+  ANALYZING --> DRAFT: Results stored
+  DRAFT --> READY_FOR_REVIEW: Submit with analysis
+  CHANGES_REQUIRED --> READY_FOR_REVIEW: Submit with valid analysis
+  READY_FOR_REVIEW --> APPROVED: Different reviewer + comments
+  READY_FOR_REVIEW --> CHANGES_REQUIRED: Reviewer + comments
+  APPROVED --> READY_TO_PUBLISH: Reviewer marks ready
+  READY_TO_PUBLISH --> DRAFT: Reopen and invalidate
+  APPROVED --> DRAFT: Reopen and invalidate
+  READY_FOR_REVIEW --> DRAFT: Reopen and invalidate
+  CHANGES_REQUIRED --> DRAFT: Edit invalidates analysis
+  note right of READY_TO_PUBLISH: No direct publishing

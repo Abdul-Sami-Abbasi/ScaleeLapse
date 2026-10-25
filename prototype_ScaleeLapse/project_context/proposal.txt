@@ -1,0 +1,586 @@
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 1 
+23FYP02 
+ 
+PRE-FYDP PROPOSAL 
+ 
+ScaleeLapse  - AI-Powered Visual Compliance and Content Ops Engine for 
+SMEs 
+ 
+ 
+ 
+ 
+Submitted By: 
+Abdul Sami Abbasi    23F-BSCS-75 
+Prem Chand               23F-BSCS-57 
+Saim Aamir                  23F-BSCS-44 
+Safeer Shaikh             23F-BSCS-25 
+ 
+ 
+ 
+Supervised By: 
+ 
+ 
+Miss Engr. Poonam KK 
+ 
+ 
+ 
+23F — BATCH 
+DEPARTMENT OF COMPUTER SCIENCE 
+  
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 2 
+ 
+1. Introduction / Background 
+Over the past several years, social media has become a central component of how businesses 
+communicate with their audiences. For Small and Medium -Sized Enterprises (SMEs), 
+maintaining visibility now requires frequent posting, consistent branding, and adher ence to 
+platform-specific guidelines. Recent industry findings suggest that AI -based tools are 
+increasingly being adopted to assist with repetitive marketing tasks and improve productivity 
+in content development [13]. 
+Even with these advancements, smaller businesses often struggle to benefit from such 
+technologies. Many established platforms offering automation and analytics features operate 
+on subscription models that are difficult for SMEs to sustain. Consequently, a large portion of 
+this segment continues to depend on manual processes when preparing and reviewing content. 
+This reliance on manual handling creates inefficiencies. Tasks such as checking visual 
+consistency, selecting effective hashtags, and ensuring compliance with platform policies are 
+typically performed independently, often using different tools. This disconnected approach can 
+lead to inconsistent outputs, delays in publishing, and increased exposure to policy violations. 
+While research and industry reports highlight the growing role of AI in marketing operations 
+[14], there remains a lack of solutions that b ring these capabilities together in a cost -effective 
+and unified manner. 
+ 
+2. Problem Statement 
+Despite progress in AI-driven marketing tools, there is still a noticeable absence of integrated 
+systems tailored to the needs and constraints of SMEs. In particular, no widely available 
+solution combines automated visual analysis, context -aware hashtag ge neration, and pre -
+publication compliance checks within a single, accessible platform. 
+Key issues contributing to this gap include: 
+• Evaluating visual consistency manually can lead to subjective decisions and 
+inconsistent branding, especially when multiple posts are handled over time [15].  
+• Many hashtag recommendation systems rely primarily on textual input, overlooking the 
+contextual information present in images. Studies indicate that excluding visual 
+features can negatively affect the relevance of suggested tags [1].  
+• Existing moderation technologies are generally designed for platform enforcement 
+rather than for assisting users in reviewing their own content prior to posting [5]. This 
+limits the ability of SMEs to proactively avoid violations.  
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 3 
+• Engagement prediction models developed in prior research are often tailored to specific 
+domains, making them less effective when applied across diverse industries without 
+further adaptation [2].  
+• Subscription costs of established tools restrict access for smaller organizations, 
+preventing them from leveraging advanced automation features.  
+• Content management activities are typically distributed across multiple platforms, 
+increasing operational overhead and complicating workflows for smaller teams. 
+ 
+3. Project Contribution 
+The proposed system introduces a set of features aimed at addressing the limitations identified 
+in both research and industry practices: 
+• End-to-End Workflow Integration: 
+The platform consolidates several key processes —image analysis, text processing, 
+compliance validation, and engagement estimation —into a single environment. This 
+reduces the need for switching between multiple tools and simplifies content 
+management.  
+• Combined Image–Text Understanding: 
+Hashtag generation is performed using both visual and textual inputs, enabling outputs 
+that better reflect the overall context of the content. This extends beyond approaches 
+that depend solely on captions and aligns with recent developments in multimodal 
+learning [1][3].  
+• Continuous Brand Monitoring: 
+Instead of relying on manual inspection, the system evaluates visual elements such as 
+color distributions over time to identify inconsistencies. This enables a more systematic 
+approach to maintaining brand identity [4].  
+• Accessibility-Focused Design: 
+The platform is structured to remain affordable and practical for SMEs, particularly in 
+regions where access to enterprise-level tools is limited. The goal is to lower the barrier 
+to adopting AI-driven marketing support.  
+Given the expansion of digital marketing ecosystems in developing markets, there is a strong 
+demand for solutions that align with the operational realities of smaller businesses. 
+ 
+ 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 4 
+ 
+4. Literature Review 
+The following section reviews existing research and industry insights relevant to the proposed 
+system, while also identifying limitations that the project aims to address. 
+• NLP-Based Hashtag Generation: 
+Prior research introduces transformer-based architectures for generating hashtags from 
+textual data. These models improve upon traditional sequence-to-sequence approaches 
+by focusing on more relevant segments of input text. However, such methods typically 
+operate only on text and do not incorporate additional contextual signals such as visual 
+content or compliance constraints. The proposed system extends this approach by 
+combining text with image inputs and validating outputs against a restricted hashtag 
+dataset [1].  
+• Multimodal Hashtag Prediction: 
+Studies using multimodal transformers demonstrate that combining image and caption 
+data leads to more accurate hashtag predictions compared to text -only models. While 
+these findings highlight the effectiveness of joint learning, they are generally limited to 
+experimental settings. The proposed system builds upon this concept by embedding it 
+within a real-time workflow that allows users to upload content and instantly receive 
+results [3].  
+• Engagement Prediction Using Visual Features: 
+Existing work shows that visual characteristics of social media posts can be used to 
+estimate engagement levels. However, many of these models are developed within 
+narrow domains and lack adaptability across different industries. The proposed 
+approach addresses this limitation by applying time -series forecasting techniques to 
+support broader and more flexible predictions [2].  
+• Computer Vision in Marketing Analysis: 
+Research identifies computer vision as a useful tool for analyzing visual elements such 
+as objects, logos, and color patterns in marketing content. Despite this, practical 
+systems for continuously tracking brand consistency over time are not widely 
+implemented. The proposed solution introduces an automated mechanism for detecting 
+variations in visual identity across posts [4].  
+• Automated Compliance Systems: 
+Current moderation technologies are primarily designed to enforce platform policies at 
+scale. These systems focus on detecting violations after content is published rather than 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 5 
+assisting users beforehand. The proposed system shifts this approach by enabling pre -
+publication checks, allowing users to identify and correct potential issues in advance 
+[5].  
+• Industry Insights and Market Trends: 
+Industry reports indicate a growing reliance on AI tools in marketing workflows. For 
+example, a significant proportion of marketers now use automation to improve 
+efficiency, and such tools have been shown to reduce content creation time 
+[13][14][15]. Despite this trend, there remains a shortage of cost -effective solutions 
+specifically designed for SMEs that integrate multiple functionalities into a single 
+platform.  
+ 
+5. Objectives 
+The project objectives are defined using measurable criteria to ensure clear evaluation of 
+system performance and usability. 
+ 
+1. Brand Visual Auditing: 
+Develop a module that analyzes uploaded images to detect inconsistencies in brand 
+color schemes. The system will apply OpenCV and K -Means clustering in HSV color 
+space, targeting a palette comparison accuracy of at least 90% when tested on a 
+validation dataset of 500 branded images.  
+ 
+2. Hashtag Generation (NLP Module): 
+Design a caption -to-hashtag generation model using fine -tuned transformer 
+architectures such as DistilBERT or RoBERTa. The model will be trained on a dataset 
+of over 10,000 Instagram captions and is expected to generate a minimum of 10 relevant 
+hashtags pe r input, achieving a BLEU score of at least 0.45 compared to human -
+generated references.  
+ 
+3. Compliance Validation: 
+Implement an automated system to identify restricted or inappropriate hashtags by 
+integrating a continuously updated database. The system will utilize web scraping 
+workflows (via n8n) and aim to achieve a recall rate of at least 95% in detecting policy 
+violations.  
+ 
+4. Engagement Forecasting: 
+ 
+Develop a predictive module using time -series models such as ARIMA or Prophet to 
+estimate engagement trends. The system will generate performance forecasts with a 
+Mean Absolute Error (MAE) of 15% or lower when compared to historical data 
+ 
+ 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 6 
+5. Unified System Interface 
+Build a web -based dashboard using React.js, integrated with a Django or Flask 
+backend, to combine all modules into a single interface. The system will support media 
+uploads, hashtag generation, compliance alerts, and scheduling features, delivered as a 
+functional prototype.  
+ 
+ 
+6. System Evaluation: 
+Conduct a pilot study involving at least five SME clients or marketing agencies to 
+assess usability. The evaluation will use the System Usability Scale (SUS), with a target 
+score of 70 or higher, indicating acceptable usability. 
+ 
+6. Scope and Limitations 
+In-Scope 
+• Instagram and Facebook as target platforms for compliance and scheduling modules. 
+• Image-based brand auditing: colour palette extraction, font inconsistency flagging, and 
+design fatigue detection. 
+• Caption-to-hashtag generation for text-based captions submitted by users. 
+• Banned/restricted hashtag compliance checking for Instagram community guidelines. 
+• Engagement trend prediction based on historical post data provided by users. 
+• A web-based React.js dashboard for SME users to upload media and view results. 
+Out-of-Scope 
+• IoT hardware integration, physical sensors, or real-time streaming camera inputs. 
+• TikTok, Twitter/X, LinkedIn, or YouTube platform -specific compliance rules (future 
+work). 
+• Direct API publishing to social platforms (regulatory/API-tier limitation). 
+• Multilingual NLP support beyond English in this iteration. 
+• Custom model training on client-specific brand datasets (requires data volume beyond 
+FYP scope). 
+Assumptions 
+• Users will provide their own historical engagement data in CSV format for forecasting. 
+• The banned hashtag database will be maintained via n8n -driven web scraping on a 
+weekly update cycle. 
+ 
+ 
+ 
+ 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 7 
+7. Methodology 
+The project follows an Agile -Iterative Software Development model with four parallel 
+development tracks corresponding to each system module. Integration testing is performed at 
+the end of each sprint. 
+Phase 1 - Research and Data Collection 
+• Literature review of 5 core research papers and industry reports (complete). 
+• Dataset curation: Instagram image -caption pairs for NLP training; historical 
+engagement CSVs for forecasting model. 
+• Tool setup: Python environment, Hugging Face Transformers, OpenCV, Django/React 
+scaffold. 
+Phase 2 - Computer Vision Module 
+• Implement image preprocessing pipeline using OpenCV (resize, normalise, HSV 
+conversion). 
+• Apply K-Means clustering to extract dominant colour palettes from uploaded images. 
+• Build palette comparison algorithm using Euclidean distance in HSV space; flag 
+deviations beyond variance threshold. 
+• Integrate YOLO-based object detection for logo/text region identification. 
+• Evaluation metric: Intersection over Union (IoU) for region detection; palette 
+comparison accuracy on labelled dataset. 
+Phase 3 - NLP Module 
+• Fine-tune DistilBERT on curated Instagram caption-hashtag dataset (minimum 10,000 
+pairs). 
+• Implement multimodal extension: image features from ResNet -50 concatenated with 
+text embeddings. 
+• Build banned-hashtag cross-reference layer using compliance database. 
+• Evaluation metric: BLEU score against human-generated hashtag sets. 
+Phase 4 - Forecasting & Compliance Modules 
+• Implement ARIMA/Prophet time-series model on user-provided historical engagement 
+data. 
+• Build n8n automation workflow for weekly banned -hashtag database refresh via web 
+scraping. 
+• Integrate compliance checker with NLP output: flag generated hashtags before they 
+reach the user. 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 8 
+Phase 5 - Frontend & Integration (FYP-II) 
+• Build React.js dashboard: media upload, module result display, scheduling queue, alert 
+notifications. 
+• Build Django REST API to connect all modules. 
+• PostgreSQL schema design: normalised relational database for users, posts, audit logs, 
+and forecasting records. 
+Phase 6 - Testing, Pilot & Final Submission 
+• Unit testing per module; integration testing of full pipeline. 
+• Pilot study with ≥5 SME clients in Karachi; SUS survey collection. 
+• Final documentation, FYP-II report, defence presentation, and project submission. 
+ 
+Methodology Work-Flow is shown in Fig 7.1 
+                                                                
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 9 
+7. Tools and Technologies 
+The tools and technologies are given as below: 
+                         Table : 8.1  
+Category Technology Justification 
+Frontend React.js Component-based SPA architecture; widely supported; rapid 
+UI development with reusable components for dashboard 
+panels. 
+Backend Django / Flask (Python) Django for ORM and admin features; Flask as lightweight 
+API layer. Both natively integrate with Python ML libraries. 
+Computer Vision OpenCV, YOLO OpenCV for image preprocessing and HSV palette extraction; 
+YOLOv8 for object/logo detection. Industry -standard, open-
+source. 
+NLP / ML Hugging Face 
+Transformers 
+(DistilBERT/RoBERTa) 
+Pre-trained transformer models enable fine -tuning on limited 
+GPU resources — critical for a student project. DistilBERT is 
+40% smaller than BERT with 97% performance. 
+Time-Series Prophet / ARIMA 
+(statsmodels) 
+Facebook’s Prophet handles seasonality and missing data 
+natively, making it suitable for irregular social media 
+engagement patterns. 
+Automation n8n (self-hosted) Open-source workflow automation for banned -hashtag 
+scraping, post scheduling triggers, and API orchestration. 
+Database PostgreSQL Normalised relational schema; ACID -compliant; strong 
+support for time-series data and JSON fields for flexible post 
+metadata. 
+Evaluation (NLP) BLEU / ROUGE Score Standard NLP evaluation metrics for text generation quality 
+against human baselines. 
+Evaluation (CV) IoU (Intersection over 
+Union) 
+Standard object detection evaluation metric for logo/region 
+detection accuracy. 
+Cloud / Hosting Google Colab (training) 
++ Railway / Render 
+(deployment) 
+Free-tier GPU access for model training; Railway/Render for 
+cost-free backend deployment during FYP phase. 
+ 
+9. Timeline / Gantt Chart 
+The project spans 10 active academic months split across two semesters: FYP -I (September – 
+January) and FYP -II (February – June). July and August are excluded as summer vacation. 
+Each semester covers 5 months of structured development activity. 
+ 
+ 
+ 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 10 
+            Table : 9.1 
+Semester Phase Month(s) Key Deliverables / Milestones 
+FYP-I (Sep – 
+Jan) 
+Phase 1: Research & 
+Setup 
+September Literature review finalised ; 5 research papers 
+mapped to modules; dataset curation begun; dev 
+environment configured; GitHub repo set up.  
+Proposal submitted. 
+Phase 2: CV Module October Brand Visual Auditor built; OpenCV pipeline 
+operational; K -Means HSV palette extraction 
+validated; YOLO integration tested.  Milestone: 
+CV module demo. 
+Phase 3: NLP 
+Module 
+November DistilBERT fine-tuned on 10,000+ caption -
+hashtag pairs; BLEU ≥0.45 achieved; hashtag 
+generation API endpoint live.  Milestone: NLP 
+module demo. 
+Phase 4: Forecasting 
+& Compliance 
+December Prophet/ARIMA forecasting model integrated; 
+n8n scraper live; banned -hashtag compliance 
+database operational. Compliance checker cross -
+referencing NLP output. 
+FYP-I Review & 
+Documentation 
+January FYP-I progress report submitted; modules 
+individually tested; mid-point supervisor review; 
+all 4 modules running as standalone services.  
+Milestone: FYP-I Evaluation. 
+ 
+FYP-II (Feb – 
+Jun) 
+Phase 5: Frontend & 
+Integration 
+Feb – Mar React.js dashboard built; Django REST API 
+connecting all 4 modules; PostgreSQL schema 
+deployed; media upload and scheduling queue 
+functional. Milestone: Full system integration 
+demo. 
+Phase 6: Testing & 
+QA 
+April Unit and integration testing of all modules; bug 
+fixes; API endpoint stress testing; UX 
+refinements based on internal review. 
+Phase 7: Pilot & 
+Evaluation 
+May Pilot study with ≥5 SME clients / agencies in 
+Karachi; SUS survey administered (target ≥70); 
+evaluation results documented; model accuracy 
+reports generated. 
+Phase 8: Final 
+Report & 
+Submission 
+June Final FYP report written; source code pushed to 
+public GitHub; defence presentation prepared; 
+project submitted.  Final Milestone: FYP -II 
+Evaluation & Defence. 
+ 
+ 
+ 
+ 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 11 
+10. Expected Results / Deliverables 
+The following tangible deliverables are expected upon project completion: 
+1. Web Application: 
+A fully functional web -based SaaS dashboard hosted on Railway/Render, accessible 
+via browser, supporting media upload and multi-module analysis. 
+2. NLP Model Artifact:  
+A trained DistilBERT-based hashtag generation model with BLEU ≥0.45, serialised as 
+a Hugging Face pipeline artifact. 
+3. Brand Audit Engine:  
+A colour-palette comparison engine built on OpenCV + K -Means, with an audit log 
+dashboard showing brand consistency scores over time. 
+4. Compliance Database: 
+A live compliance database updated weekly via n8n automation, with an API endpoint 
+for real-time hashtag validation. 
+5. Engagement Forecast Dashboard: 
+A time -series engagement forecasting report interface showing predicted vs. actual 
+performance trends per post type. 
+6. Database Design: 
+A normalised PostgreSQL schema documented with an ERD, supporting multi -user 
+access for agency workflows. 
+7. Final Report & Repository: 
+Final FYP report including system architecture diagrams, evaluation results, user study 
+findings, and all source code in a public GitHub repository. 
+ 
+The expected dashboard interface is shown below.  
+ 
+ 
+ 
+ 
+ 
+ 
+
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 12 
+11. Budget and Resources Required 
+The project is designed to maximi ze use of free and open -source tools. Estimated costs are 
+listed below:                                        
+Table: 11.1 
+Resource Estimated Cost (PKR) Alternative / Notes 
+Google Colab Pro (GPU for model 
+training) 
+PKR 4,500 / month × 2 
+= PKR 9,000 
+Free tier (T4 GPU) is sufficient for 
+DistilBERT fine -tuning; Pro used only 
+during heavy training sprints 
+Monthly API / Tool Subscription 
+($9/month × 12 months = $108/year) 
+~PKR 30,240 (@ 280 
+PKR/$) 
+Covers AI API access, tooling 
+subscriptions, or productivity services 
+required over the full project year 
+Railway / Render Hosting (backend 
+deployment) 
+Free tier Render free plan supports Django API 
+deployment 
+Domain name (scalelapse.app) PKR 3,500 / year Optional for FYP demo; can use 
+subdomain 
+Instagram Graph API (test account) Free (Meta Developer) Required for scheduling module 
+integration 
+PostgreSQL (Supabase Free Tier) Free Supabase provides 500 MB free 
+PostgreSQL hosting 
+Design assets (Figma) Free (Student Plan) Figma Education provides full feature 
+access 
+Total Estimated Cost PKR ~42,740 (~$153 
+USD) 
+Dominated by API subscription ($108) 
+and Colab Pro ($32); majority of 
+infrastructure remains free-tier 
+12. Conclusion 
+The proposed platform aims to simplify how SMEs manage social media content by bringing 
+together several essential functions into a unified system. By combining image-based analysis, 
+language processing, compliance validation, and predictive modeling, it a ddresses 
+inefficiencies associated with fragmented workflows. 
+While each individual component is supported by existing research, the primary value lies in 
+integrating these capabilities into a single, practical application. Many currently available tools 
+either focus on limited aspects of content management or remain  financially inaccessible to 
+smaller organizations. 
+As the use of AI in marketing continues to expand, there is a growing need for solutions that 
+are both effective and accessible. This project contributes toward that objective by offering a 
+system designed with the constraints and requirements of SMEs in mind. 
+Future developments could include support for additional platforms, multilingual processing, 
+and further refinement of predictive models to improve adaptability across different industries. 
+DAWOOD UNIVERSITY OF ENGINEERING AND TECHNOLOG KARACHI-
+74800 (PAKISTAN) 
+ 
+FACULTY OF INFORMATION & COMPUTING SCIENCES 
+DEPARTMENT OF COMPUTER SCIENCE 
+ 
+Department of Computer Science, Faculty of Information & Computing Sciences | Page 13 
+References 
+[1] Y. Mao, J. Wei, B. Wang, and B. Liu, “Attend and Select: A Segment Attention -Based 
+Selection Mechanism for Microblog Hashtag Generation,” arXiv preprint arXiv:2106.03151, 
+2021. 
+[2] M. Philp, S. Jacobson, and E. Pancer, “Predicting Social Media Engagement with Computer 
+Vision: An Examination of Food Marketing on Instagram,” Journal of Business Research, vol. 
+149, pp. 736–747, 2022, doi: 10.1016/j.jbusres.2022.05.078. 
+[3] A. Khalil et al., “Cross -Modality Representation Learning from Transformer for Hashtag 
+Prediction,” Journal of Big Data, Springer Open, 2023, doi: 10.1186/s40537-023-00824-2. 
+[4] Author(s), “Evaluating the Role of AI in Visual Marketing Management,” ShodhKosh: Journal 
+of Visual and Performing Arts, 2023. [Online]. Available: granthaalayahpublication.org. 
+[5] S. Jhaver et al., “Automated Content Moderation Increases Adherence to Community 
+Guidelines,” arXiv preprint arXiv:2210.10454, 2022. 
+[6] M. Sadr, S. L. Mirtaheri, S. Greco, and K. Borna, “Popular Tag Recommendation by Neural 
+Network in Social Media,” Computational Intelligence and Neuroscience, 2023,  
+doi: 10.1155/2023/4300408. 
+[7] Buffer, “The 11 Best Social Media Management Tools in 2026,” Buffer Blog, 2026. [Online]. 
+Available: https://buffer.com/resources/best-social-media-management-tools/ . Accessed: May 
+2026. 
+[8] Genesys Growth, “Hootsuite OwlyWriter vs Buffer AI vs Sprout Social AI – A Complete Guide 
+for Marketing Leaders in 2026,” 2026. [Online]. Available: https://genesysgrowth.com. 
+[9] Coursera, “12 Major Social Media Trends in 2026,” Coursera Articles, 2026. [Online]. 
+Available: https://www.coursera.org/articles/social-media-trends.  
+[10] US Tech Automations, “Social Media Automation Tools Compared: 2026 Guide,” 2026. 
+[Online]. Available: https://ustechautomations.com. 
+[11] Mirra, “15 Best AI Social Media Tools 2026,” Mirra Blog, 2026. [Online]. Available: 
+https://www.mirra.my/en/blog/best-ai-sns-tools-15-picks-2025.  
+[12] MarTech Cube, “2023 Sprout Social Index, Edition XIX: Breakthrough,” 2023. [Online]. 
+Available: https://www.martechcube.com.  Accessed: May 2026. 
+[13] HubSpot, “State of Marketing Report 2024,” HubSpot, 2024. [Online]. Available: 
+https://www.hubspot.com/state-of-marketing.  
+[14] Sprout Social, “The 2025 Sprout Social Index, Edition XX,” Sprout Social, 2024. [Online]. 
+Available: https://sproutsocial.com/insights/index/ . Accessed: May 2026. 
+[15] US Tech Automations, “Hootsuite Internal Data on OwlyWriter AI Performance,” cited in: 
+Social Media Automation Tools Compared: 2026 Guide, 2026. 

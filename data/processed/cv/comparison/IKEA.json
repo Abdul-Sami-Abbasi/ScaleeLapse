@@ -1,0 +1,77 @@
+[
+    {
+        "image": "ikea_001_lindakra_sleeper_sofa.png",
+        "distance": 25.76,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "ikea_002_konstrunda_stool.png",
+        "distance": 36.14,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_003_billy_bookcase_blue.png",
+        "distance": 41.57,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_004_kronoren_2drawer_chest.png",
+        "distance": 38.3,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_005_strala_floor_lamp.png",
+        "distance": 31.54,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_006_besta_storage_combination.png",
+        "distance": 9.9,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "ikea_007_kallax_shelf_unit.png",
+        "distance": 41.82,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_008_pax_storklinta_wardrobe.png",
+        "distance": 24.81,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "ikea_009_poang_armchair.png",
+        "distance": 32.81,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_010_micke_desk.png",
+        "distance": 22.55,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "ikea_011_alex_drawer_unit.png",
+        "distance": 34.3,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_012_storklinta_6drawer_dresser.png",
+        "distance": 37.81,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_013_raskog_utility_cart.png",
+        "distance": 30.48,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_014_malm_bed_frame.png",
+        "distance": 44.5,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "ikea_015_lack_wall_shelf_unit.png",
+        "distance": 42.59,
+        "status": "DEVIATION DETECTED"
+    }
+]

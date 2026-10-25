@@ -1,0 +1,14 @@
+flowchart TD
+  A[Sign in] --> B[Select owner-provided Brand Kit]
+  B --> C[Create caption and upload image]
+  C --> D{Valid input?}
+  D -- No --> E[Readable validation error]
+  E --> C
+  D -- Yes --> F[Analyze image and caption]
+  F --> G[Inspect palette, tags, risk and missing-model flags]
+  G --> H{Revise?}
+  H -- Yes --> C
+  H -- No --> I[Submit to different reviewer]
+  I --> J{Decision}
+  J -- Changes required --> C
+  J -- Approve --> K[Mark ready for manual publishing]

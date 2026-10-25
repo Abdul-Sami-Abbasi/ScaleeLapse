@@ -1,0 +1,77 @@
+[
+    {
+        "image": "national_001_biryani_recipe_mix.png",
+        "distance": 31.15,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "national_002_pulao_biryani_mix.png",
+        "distance": 15.8,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_003_karachi_khaas_nihari.png",
+        "distance": 28.64,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_004_karachi_khaas_quorma.png",
+        "distance": 29.7,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_005_karachi_khaas_karahi.png",
+        "distance": 20.56,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_006_white_karahi_mix.png",
+        "distance": 28.37,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_007_chicken_tikka_mix.png",
+        "distance": 21.14,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_008_haleem_recipe_mix.png",
+        "distance": 13.15,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_009_tomato_ketchup.png",
+        "distance": 17.11,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_010_classic_mayo.png",
+        "distance": 26.5,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_011_mixed_pickle.png",
+        "distance": 31.53,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "national_012_strawberry_custard.png",
+        "distance": 40.27,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "national_013_strawberry_jam.png",
+        "distance": 16.9,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "national_014_chat_masala.png",
+        "distance": 31.06,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "national_015_pink_himalayan_salt.png",
+        "distance": 31.17,
+        "status": "DEVIATION DETECTED"
+    }
+]

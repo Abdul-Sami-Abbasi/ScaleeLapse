@@ -1,0 +1,77 @@
+[
+    {
+        "image": "Image_1.jpg",
+        "distance": 28.18,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_10.jpg",
+        "distance": 20.74,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_11.jpg",
+        "distance": 8.96,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_12.jpg",
+        "distance": 27.8,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_13.jpg",
+        "distance": 11.44,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_14.jpg",
+        "distance": 20.95,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_15.jpg",
+        "distance": 18.87,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_2.jpg",
+        "distance": 12.72,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_3.jpg",
+        "distance": 22.61,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_4.jpg",
+        "distance": 8.25,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_5.jpg",
+        "distance": 27.45,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_6.jpg",
+        "distance": 18.42,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_7.jpg",
+        "distance": 15.11,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "Image_8.jpg",
+        "distance": 31.32,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "Image_9.jpg",
+        "distance": 22.08,
+        "status": "CONSISTENT"
+    }
+]

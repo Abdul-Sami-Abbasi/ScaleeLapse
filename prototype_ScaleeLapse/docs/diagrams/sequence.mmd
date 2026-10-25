@@ -1,0 +1,22 @@
+sequenceDiagram
+  actor Creator
+  participant UI as React
+  participant API as Django
+  participant DB as Database
+  participant ML as Local services
+  actor Reviewer
+  Creator->>UI: Save post and upload image
+  UI->>API: Authenticated CSRF-protected requests
+  API->>DB: Persist tenant-scoped draft and media
+  Creator->>UI: Analyze
+  UI->>API: POST analyze
+  API->>DB: Lock draft; set analyzing within transaction
+  API->>ML: Palette, tags, sourced risk
+  ML-->>API: Results and coverage limitations
+  API->>DB: Store results; return to draft
+  API-->>UI: Analysis JSON
+  Creator->>API: Submit for review
+  Reviewer->>API: Approve with comments
+  API->>DB: Independent-review check and approval log
+  Reviewer->>API: Mark ready
+  API-->>Reviewer: READY_TO_PUBLISH

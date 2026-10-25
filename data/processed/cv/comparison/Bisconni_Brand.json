@@ -1,0 +1,77 @@
+[
+    {
+        "image": "bisconni_001_cocomo_chocolate.png",
+        "distance": 9.75,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_002_cocomo_milk.png",
+        "distance": 26.48,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_003_cocomo_strawberry.png",
+        "distance": 16.72,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_004_cocomo_orange.png",
+        "distance": 15.83,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_005_chocolatto.png",
+        "distance": 5.81,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_006_chocolate_chip.png",
+        "distance": 8.26,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_007_rite.png",
+        "distance": 18.36,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_008_craving_peanut.png",
+        "distance": 7.04,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_009_novita_chocolate.png",
+        "distance": 28.7,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_010_novita_orange.png",
+        "distance": 8.73,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_011_flo_chocolate.png",
+        "distance": 10.45,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_012_chai_wala_biskut.png",
+        "distance": 10.62,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_013_crux_crackers.png",
+        "distance": 10.76,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_014_rollies.png",
+        "distance": 6.9,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "bisconni_015_prime_mi_amor.png",
+        "distance": 9.35,
+        "status": "CONSISTENT"
+    }
+]

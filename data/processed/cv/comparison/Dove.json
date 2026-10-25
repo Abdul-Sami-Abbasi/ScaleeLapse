@@ -1,0 +1,77 @@
+[
+    {
+        "image": "dove_001_original_beauty_bar.png",
+        "distance": 7.72,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_002_sensitive_skin_beauty_bar.png",
+        "distance": 31.77,
+        "status": "DEVIATION DETECTED"
+    },
+    {
+        "image": "dove_003_deep_moisture_body_wash.png",
+        "distance": 7.02,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_004_glowing_body_wash.png",
+        "distance": 15.1,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_005_antibacterial_body_wash.png",
+        "distance": 16.88,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_006_coconut_almond_hand_wash.png",
+        "distance": 18.37,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_007_berry_blush_whole_body_spray.png",
+        "distance": 7.55,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_008_coconut_vanilla_whole_body_stick.png",
+        "distance": 20.81,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_009_advanced_care_antiperspirant.png",
+        "distance": 14.09,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_010_bond_strength_shampoo.png",
+        "distance": 6.23,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_011_bond_strength_conditioner.png",
+        "distance": 6.51,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_012_bond_strength_serum_mask.png",
+        "distance": 16.86,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_013_mencare_eucalyptus_cedar_body_wash.png",
+        "distance": 12.9,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_014_mencare_max_protection_stick.png",
+        "distance": 13.77,
+        "status": "CONSISTENT"
+    },
+    {
+        "image": "dove_015_mencare_max_protection_spray.png",
+        "distance": 8.31,
+        "status": "CONSISTENT"
+    }
+]
